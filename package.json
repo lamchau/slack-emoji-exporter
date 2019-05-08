@@ -1,0 +1,11 @@
+{
+  "name": "slack-emoji-export",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/web-api": "^5.0.1",
+    "axios": "^0.18.0",
+    "cwait": "^1.1.2"
+  }
+}
