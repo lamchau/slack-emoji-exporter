@@ -3,7 +3,7 @@ const path = require('path');
 const commander = require('commander');
 
 const DEFAULTS = Object.freeze({
-  LIMIT: 10,
+  LIMIT: 2,
   OVERWRITE: false,
   OUTPUT_DIRECTORY: path.join(__dirname, 'images')
 });
