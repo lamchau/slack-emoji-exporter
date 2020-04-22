@@ -85,3 +85,9 @@ typings/
 
 # vim
 *.swp
+
+# script file
+**/*.jpg
+**/*.gif
+**/*.png
+
