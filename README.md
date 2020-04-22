@@ -28,6 +28,7 @@ Note: This will no longer work _after_ May 5th, 2020 — I'll need to update thi
     <img src="https://user-images.githubusercontent.com/4911400/79959972-abe2ef00-8439-11ea-9ca3-5a80ef4f5dde.png" width="50%">
 
 2. Generate a *legacy token*
+
     <img src="https://user-images.githubusercontent.com/4911400/79959982-b1403980-8439-11ea-9a32-ae6a42da6b64.png" width="50%">
 
 3. Save your *legacy token* somewhere or reference back to [legacy tokens](https://api.slack.com/legacy/custom-integrations/legacy-tokens). You'll use this later when running the script (it should start with `xoxp-`).
