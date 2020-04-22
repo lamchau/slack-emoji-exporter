@@ -37,8 +37,9 @@ function createIterable(obj) {
 async function createWriteStream(path) {
   return new Promise(resolve => {
     return stat(path, (error, stats) => {
-      const exists = stats && (stats.isFile() || stats.isDirectory());
-      if (options.overwrite || !exists) {
+      const fileExists = error === null;
+      const canWrite = options.overwrite ? options.overwrite : !fileExists;
+      if (canWrite) {
         const writerOptions = options.overwrite ? { flags: 'w' } : {};
         const writer = fs.createWriteStream(path, writerOptions);
         resolve(writer);
