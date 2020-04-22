@@ -4,12 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@slack/web-api": "^5.0.1",
-    "axios": "^0.18.1",
+    "@slack/web-api": "^5.8.0",
+    "axios": "^0.19.2",
     "chai": "^4.2.0",
-    "commander": "^2.20.0",
+    "commander": "^5.0.0",
     "cwait": "^1.1.2",
-    "mocha": "^6.1.4",
+    "mocha": "^7.1.1",
     "winston": "^3.2.1"
   }
 }
